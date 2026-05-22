@@ -1,21 +1,28 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>my first project</title>
     <style>
-        .h1 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           
-            justify-content: center;
-            text-color:red;
-        }
-
-        .p{
-            background-color: #3498db;
-        }
-    </style>
-</head>
-<body>
-    <h1>INTRODUCTION</h1>
-    <p>NAME : D.BHANU PRAKASH</p>
-    <img src="image.jpg" alt="My Profile Picture" style="width:150px; border-radius:50%; display:block; margin:20px 0;">
+        /* Removed the dot so it targets the <h1> tag, fixed centering and color */
+        h1 { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            color: red; 
+        } 
+        
+        /* Removed the dot so it targets the <p> tag */
+        p { 
+            background-color: #3498db; 
+            color: white; /* Added for better readability against the blue background */
+            padding: 10px; /* Added some padding so the background looks nice */
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1>INTRODUCTION</h1> 
+    <p>NAME : D.BHANU PRAKASH</p> 
+    
+    <!-- Ensure your file on GitHub is exactly named image.jpg (all lowercase) -->
+    <img src="image.jpg" alt="My Profile Picture" style="width:150px; border-radius:50%; display:block; margin:20px auto;"> 
 </body>
+</html>
